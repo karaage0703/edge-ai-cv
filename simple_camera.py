@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 
 while True:
     ret, frame = cap.read()
@@ -11,3 +11,6 @@ while True:
         break
 
     cv2.imshow('camera', frame)
+
+cap.release()
+cv2.destroyAllWindows()
