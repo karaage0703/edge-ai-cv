@@ -80,14 +80,16 @@ if __name__ == '__main__':
             # https://discuss.pytorch.org/t/how-to-classify-single-image-using-loaded-net/1411/29
             image = capture.copy()
             image = cv2.resize(image, (64, 64))
-            loader = transforms.Compose([ transforms.ToTensor()])
+            loader = transforms.Compose([transforms.ToTensor()])
             image = loader(image).float()
             image = image.unsqueeze(0)
             image = image.to(device)
 
             start = time.time()
             output = model(image)
+            print(output)
             preds = output.argmax(dim=1, keepdim=True)
+            print(preds)
             elapsed_time = time.time() - start
 
             pred_label = labels[preds]
