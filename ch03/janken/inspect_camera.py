@@ -77,6 +77,7 @@ if __name__ == '__main__':
             # https://discuss.pytorch.org/t/how-to-classify-single-image-using-loaded-net/1411/29
             image = capture.copy()
             image = cv2.resize(image, (64, 64))
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
             loader = transforms.Compose([transforms.ToTensor()])
             image = loader(image).float()
             image = image.unsqueeze(0)
