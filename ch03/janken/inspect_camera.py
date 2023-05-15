@@ -2,16 +2,13 @@
 # -*- coding:utf-8 -*-
 
 import argparse
-import numpy as np
 import cv2
-import sys
 import time
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torchvision import transforms
-import os
 
 
 class Model(nn.Module):
@@ -87,9 +84,9 @@ if __name__ == '__main__':
 
             start = time.time()
             output = model(image)
-            print(output)
+            # print(output)
             preds = output.argmax(dim=1, keepdim=True)
-            print(preds)
+            # print(preds)
             elapsed_time = time.time() - start
 
             pred_label = labels[preds]

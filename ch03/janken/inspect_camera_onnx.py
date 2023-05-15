@@ -1,9 +1,7 @@
 import argparse
 import numpy as np
 import cv2
-import sys
 import time
-import os
 import onnxruntime
 
 
