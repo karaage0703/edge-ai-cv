@@ -26,6 +26,13 @@
 ### 2章
 
 ### 3章
+[YOLOX: Exceeding YOLO Series in 2021（論文）](https://arxiv.org/abs/2107.08430)
+
+[7セグメントLED認識（GitHub）](https://github.com/Kazuhito00/7segment-display-reader)
+
+[Deep写輪眼（GitHub）](https://github.com/Kazuhito00/NARUTO-HandSignDetection)
+
+[顔検出 YuNetサンプル（GitHub）](https://github.com/Kazuhito00/YuNet-ONNX-TFLite-Sample)
 
 ### 4章
 
