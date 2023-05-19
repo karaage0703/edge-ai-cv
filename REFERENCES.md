@@ -38,6 +38,8 @@
 
 [YOLOX: Exceeding YOLO Series in 2021（論文）](https://arxiv.org/abs/2107.08430)
 
+[顔検出 YuNetサンプル（GitHub）](https://github.com/Kazuhito00/YuNet-ONNX-TFLite-Sample)
+
 ### 4章
 
 [ONNXモデルのチューニングテクニック](https://cyberagent.ai/blog/tech/17300/)
