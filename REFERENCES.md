@@ -44,12 +44,6 @@
 
 ### 4章
 
-[Raspberry piでリアルタイムにディスプレイを読み取るレシピ](https://axross-recipe.com/recipes/196)
-
-[YOLOX-Colaboratory-Training-Sample（GitHub）](https://github.com/Kazuhito00/YOLOX-Colaboratory-Training-Sample)
-
-[YOLOXをColaboratory上でトレーニングするレシピ](https://axross-recipe.com/recipes/548)
-
 [ONNXモデルのチューニングテクニック](https://cyberagent.ai/blog/tech/17300/)
 
 ### 5章
