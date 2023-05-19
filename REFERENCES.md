@@ -30,6 +30,8 @@
 
 [「JDLA緊急企画！「生成AIの衝撃」～ ChatGPTで世界はどう変わるのか？ ～」](https://www.youtube.com/watch?v=TVaB5R4-uOE)
 
+[ラズパイ(Raspberry Pi)のPicamera2でカメラを使う方法](https://zenn.dev/karaage0703/articles/96013d71ab764c)
+
 ### 2章
 
 [VS Codeエディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
