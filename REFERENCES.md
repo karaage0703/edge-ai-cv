@@ -32,6 +32,8 @@
 
 ### 2章
 
+[VS Codeエディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
+
 ### 3章
 
 [YOLOX: Exceeding YOLO Series in 2021（論文）](https://arxiv.org/abs/2107.08430)
