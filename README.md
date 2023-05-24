@@ -2,9 +2,14 @@
 
 本リポジトリは、書籍「エッジAIコンピュータビジョン入門」のサポートサイトとなります。
 
+<div align="left">
+<img src="images/cover_01.png" width="200">
+</div>
+
 　購入先は以下となります。
- 
- 準備中
+
+[BOOTH（電子書籍）](https://karaage0703.booth.pm/items/4800446)
+
 
 ## Google Colab ノートブック
 
