@@ -4,7 +4,6 @@
 # Reference:
 # https://elchika.com/article/10487527-afbe-48c7-afc6-6c088a462a3c/
 
-REQUIRED_OS_VERSION='11'
 REQUIRED_ARCH="aarch64"
 
 
@@ -27,7 +26,7 @@ OS_VERSION=$(cat /etc/os-release | grep -w "VERSION_ID" | cut -d '=' -f2 | tr -d
 # Check architecture
 ARCH=$(uname -m)
 
-if [ "$OS_VERSION" == "$REQUIRED_OS_VERSION" ] && [ "$ARCH" == "$REQUIRED_ARCH" ]; then
+if { [ "$OS_VERSION" == "11" ] || [ "$OS_VERSION" == "12" ]; } && [ "$ARCH" == "$REQUIRED_ARCH" ]; then
     echo "Running on Raspberry Pi OS $REQUIRED_OS_VERSION and $REQUIRED_ARCH architecture."
 
     START_TIME=`date +%s`
