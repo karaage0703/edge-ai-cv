@@ -16,7 +16,7 @@ apt_get_install(){
 # install OpenCV
 install_opencv(){
     sudo pip3 install -U pip
-    sudo pip3 --default-timeout=1000 install opencv-python==4.7.0.72
+    sudo pip3 --default-timeout=1000 install opencv-python==4.10.0.84
 }
 
 
